@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar" id="navbar">
+        <div class="container-fluid">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <br>
+      <br>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3 >Hi, I am </h3>
+            <h1>Baladharun K</h1>
+            <h3>I am a <span>FullStack developer</span></h3><br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi obcaecati quod illum, eligendi nam ratione libero dignissimos vel. Inventore numquam eum animi aut error quo reprehenderit optio itaque ut illum.
+            Deleniti reprehenderit molestias nihil, iusto accusamus harum aliquam maiores recusandae rem. Blanditiis laboriosam quaerat asperiores assumenda ipsam, accusamus quidem commodi, magni maiores perspiciatis fuga doloribus distinctio deleniti. Rerum, voluptatibus debitis?
+            Illum, quis neque impedit nam commodi beatae ipsum totam numquam, sit sequi itaque sed repellat sapiente esse placeat magni alias sint doloribus odio similique fugiat voluptatibus. Debitis temporibus odit quis!
+            </p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                
+            </div>
+        </div>
+        <div class="home-image-section">
+            <img src="./Baladharun.jpeg" id="home-image">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-image-section">
+        <model-viewer
+        src="models/test2.glb"
+        alt="dragon"
+        auto-rotate
+        id="about-image"
+        camera-controls
+      ></model-viewer>
+      </div>
+        
+        <div class="home-content">
+            <h1><span>About</span> Me</h1>
+            <h3>Frontend developer</h3><br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi obcaecati quod illum, eligendi nam ratione libero dignissimos vel. Inventore numquam eum animi aut error quo reprehenderit optio itaque ut illum.
+            Deleniti reprehenderit molestias nihil, iusto accusamus harum aliquam maiores recusandae rem. Blanditiis laboriosam quaerat asperiores assumenda ipsam, accusamus quidem commodi, magni maiores perspiciatis fuga doloribus distinctio deleniti. Rerum, voluptatibus debitis?
+            Illum, quis neque impedit nam commodi beatae ipsum totam numquam, sit sequi itaque sed repellat sapiente esse placeat magni alias sint doloribus odio similique fugiat voluptatibus. Debitis temporibus odit quis!quis neque impedit nam commodi beatae ipsum totam numquam, sit sequi itaque sed repellat sapiente esse placeat m
+          </p>
+        </div>
+    </section>
+
+
+    <section class="skills" id="skills">
+        <h3>My <span>Skills</span></h3><br><br>
+        <div class="skill-container">
+            <div class="skill">
+                <center><i class="skill-logo fa-solid fa-code"></i></center>
+                <h4>Web Development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At aliquam, reiciendis obcaecati vel repellendus a ipsa natus repudiandae voluptates illo? Molestiae sed itaque ipsa voluptates aut doloribus iste provident perspiciatis.</p>
+            </div>
+
+            <div class="skill">
+                <center><i class="skill-logo fa-solid fa-magnifying-glass-chart"></i></center>
+                <h4>Data Analyst</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At aliquam, reiciendis obcaecati vel repellendus a ipsa natus repudiandae voluptates illo? Molestiae sed itaque ipsa voluptates aut doloribus iste provident perspiciatis.</p>
+            </div>
+
+            <div class="skill">
+                <center><i class="skill-logo fa-brands fa-android"></i></center>
+                <h4>App development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At aliquam, reiciendis obcaecati vel repellendus a ipsa natus repudiandae voluptates illo? Molestiae sed itaque ipsa voluptates aut doloribus iste provident perspiciatis.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <h3>My <span>Projects</span></h3><br><br>
+        <div class="project-container">
+            <div class="box1">
+                <img src="./image-1.webp" alt="Avatar" class="image">
+                <div class="overlay">My project</div>
+              </div>
+
+              <div class="box1">
+                <img src="./image-2.png" alt="Avatar" class="image">
+                <div class="overlay">My Project</div>
+              </div>
+
+              <div class="box1">
+                <img src="./image-3.jpg" alt="Avatar" class="image">
+                <div class="overlay">My Project</div>
+              </div>
+              
+              <div class="box1">
+                <img src="./image-4.png" alt="Avatar" class="image">
+                <div class="overlay">My Project</div>
+              </div>
+
+              <div class="box1">
+                <img src="./image-5.jpg" alt="Avatar" class="image">
+                <div class="overlay">My Project</div>
+              </div>
+
+              <div class="box1">
+                <img src="./image-6.avif" alt="Avatar" class="image">
+                <div class="overlay">My Project</div>
+              </div>
+
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <h3><span>Contact</span> Me</h3><br><br>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Enter your name">
+                <input type="email" placeholder="Enter your email address">
+            </div>
+    
+            <div class="input-box">
+                <input type="number" placeholder="Enter Mobile Number">
+                <input type="email" placeholder="Enter Subject">
+            </div>
+            <textarea name="textarea" id="textarea" cols="30" rows="5" placeholder="Enter message"></textarea>
+            <input type="submit" value="Send message" class="button">
+        </form>
+        
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
